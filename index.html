@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+
+<body>
+    <div class="top-box">
+        <h1>
+            Metric/Imperial Unit Conversion
+        </h1>
+        <input class="input-field" type="number" name="" id="conversion-value">
+        <button id="convert-btn" class="input-btn">Convert</button>
+    </div>
+    <div class="conversion-ctn">
+        <div id="length" class="converted-output">
+            <p class="converted-title">Length (Meter/Feet)</p>
+            <p id="converted-length" class="converted-output-txt"></p>
+        </div>
+        <div class="converted-output">
+            <p class="converted-title">Volume (Liters/Gallons)</p>
+            <p id="converted-volume" class="converted-output-txt"></p>
+        </div>
+        <div class="converted-output">
+            <p class="converted-title">Mass (Kilograms/Pounds)</p>
+            <p id="converted-mass" class="converted-output-txt"></p>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>

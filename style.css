@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    background-color: #F4F4F4;
+}
+
+.top-box {
+    background-color: #6943FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 28px;
+    font-family: 'Inter';
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: transparent;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 58px;
+    height: 83px;
+    width: 117px;
+    margin-bottom: 26px;
+    text-align: center;
+
+}
+
+/*Gets rid of black outline when input field is selected*/
+.input-field:focus  {
+    outline: none;
+}
+
+/*removes arrows from number input*/
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+.input-btn {
+    background-color: white;
+    color: black;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 9px;
+    margin-bottom: 34px;
+    border: none;
+    height: 42px;
+    width: 117px;
+}
+
+.input-btn:hover {
+    background-color: #808080;
+    color: white;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.conversion-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.converted-title {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter';
+    margin: 31px 0px 9px 0px;
+}
+.converted-output {
+    background-color: white;
+    width: 500px;
+    height: 108px;
+    margin-bottom: 23px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#length {
+    margin-top: 36px;
+}
+
+.converted-output-txt {
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
